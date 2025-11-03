@@ -1,0 +1,17 @@
+features
+-------------------------------
+reusable components
+
+fast performance(virtual dom)
+
+rich eco system
+*.react router-for routing ,navigation
+*.redux-for state management
+*.axios/fetch-api calls
+*.mui/tailwind-for styling ui
+
+Hooks api for functional logic
+
+declarative and component based
+
+single page application(spa)

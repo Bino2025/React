@@ -1,35 +1,65 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+// import './App.css'
+// import Calling_function from './embedding-Expression/Calling_function'
+// import Conditional from './embedding-Expression/conditional'
+// import RenderingLists from './embedding-Expression/RenderingLists'
+
+import Basic from "./functional-components/Basic"
+import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
+import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
+import Props from "./functional-components/Props"
+import State from "./functional-components/state"
+
+
+const App = () => {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* <Embedding expression/> */}
+      {/* <RenderingLists/> */}
+  
+      {/* // -----------------------Functional Components------------------------- */}
+      {/* <Basic/> */}
+      {/* < State/> */}
+      {/* <Props/> */}
+      {/* ---------------------Hooks & life cycle methods------------------- */}
+      {/* <Timer/> */}
+      <UserList/>
+
     </>
   )
 }
 
 export default App
+
+
+// // ----------------Class Components-------------------
+// import React, { Component } from 'react'
+// import Basic from './Class-components/Basic'
+// import UsingProps from './Class-components/UsingProps'
+// import Counter from './Class-components/counter'
+// import Counter2 from '../work/Counter2'
+// import Mounting from './Class-components/LifeCycle-Methods/Mounting'
+// import Updating from './Class-components/LifeCycle-Methods/Updating'
+// import UnMounting from './Class-components/LifeCycle-Methods/UnMounting'
+// import ButtonUnMount from './Class-components/LifeCycle-Methods/ButtonUnMount'
+// import Should_update from './Class-components/LifeCycle-Methods/Should_update'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <>
+//       {/* <Basic/> */}
+//       {/* <UsingProps name="Bino"/> */}
+//       {/* <Counter/> */}
+//       {/* <Counter2/> */}
+//       {/* <Mounting/> */}
+//       {/* <Updating/> */}
+//       {/* <UnMounting/> */}
+//       {/* <ButtonUnMount/> */}
+//       <Should_update/>
+//       </>
+//     )
+//   }
+// }
+
