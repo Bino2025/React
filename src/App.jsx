@@ -4,11 +4,22 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import Basic from "./functional-components/Basic"
-import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
-import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
-import Props from "./functional-components/Props"
-import State from "./functional-components/state"
+import Crud from "../LocalStorage/Crud"
+
+// import Basic from "./functional-components/Basic"
+// import Home from "./functional-components/Hooks/UseContext-hook/Home"
+// import { ThemeProvider } from "./functional-components/Hooks/UseContext-hook/ThemeContext"
+// import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
+// import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
+// import ProfileForm from "./functional-components/Hooks/UseState/ProfileForm"
+// import TextInput_useState from "./functional-components/Hooks/UseState/TextInput_useState"
+// import ToggleButton from "./functional-components/Hooks/UseState/ToggleButton"
+// import Props from "./functional-components/Props"
+// import State from "./functional-components/state"
+// import SimpleForm from "./Form/SimpleForm"
+// import UserList from "./functional-components/Hooks/UseContext-hook/UserList/UserList"
+// import Items from "./React-Keys/Items"
+// import RealWorld from "./React-Keys/RealWorld"
 
 
 const App = () => {
@@ -24,7 +35,28 @@ const App = () => {
       {/* <Props/> */}
       {/* ---------------------Hooks & life cycle methods------------------- */}
       {/* <Timer/> */}
-      <UserList/>
+      {/* <UserList/> */}
+      {/* <TextInput_useState/> */}
+      {/* <ToggleButton/> */}
+      {/* <ProfileForm/> */}
+      {/* <Example2/> */}
+      
+      {/* <ThemeProvider>
+        <Home/>
+      </ThemeProvider> */}
+      {/* <userApiProvider>
+        <UserList/>
+      </userApiProvider> */}
+
+
+      {/* --------------------React Keys------------------ */}
+
+      {/* <Items/> */}
+      {/* <RealWorld/> */}
+
+        {/* --------form------ */}
+        {/* <SimpleForm/> */}
+        <Crud/>
 
     </>
   )
