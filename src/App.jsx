@@ -4,7 +4,14 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import Crud from "../LocalStorage/Crud"
+import Banner from "../work/New/banner"
+import CardsSection from "../work/New/CardsSection"
+import Description from "../work/New/Description"
+import Footer from "../work/New/Footer"
+import Navbar from "../work/New/navbar"
+
+
+// import Crud from "../LocalStorage/Crud"
 
 // import Basic from "./functional-components/Basic"
 // import Home from "./functional-components/Hooks/UseContext-hook/Home"
@@ -56,7 +63,23 @@ const App = () => {
 
         {/* --------form------ */}
         {/* <SimpleForm/> */}
-        <Crud/>
+        {/* <Crud/> */}
+
+
+
+
+
+
+        {/* --------------------WORK----------------------------- */}
+
+        <Navbar/>
+        <Banner/>
+        <CardsSection/>
+        <Description/>
+        <Footer/>
+
+
+        
 
     </>
   )

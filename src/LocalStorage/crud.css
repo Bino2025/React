@@ -68,10 +68,13 @@ th, td {
 }
 
 tr:hover {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 h1, h2 {
   text-align: center;
-  color: #333;
+ color: #333;
 }
+
+
+
