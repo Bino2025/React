@@ -4,11 +4,14 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import Banner from "../work/New/banner"
-import CardsSection from "../work/New/CardsSection"
-import Description from "../work/New/Description"
-import Footer from "../work/New/Footer"
-import Navbar from "../work/New/navbar"
+import AxiosPost from "./Axios/AxiosPost"
+
+// import Banner from "../work/New/banner"
+// import CardsSection from "../work/New/CardsSection"
+// import Description from "../work/New/Description"
+// import Footer from "../work/New/Footer"
+// import Navbar from "../work/New/navbar"
+// import AxiosGet from "./Axios/AxiosGet"
 
 
 // import Crud from "../LocalStorage/Crud"
@@ -72,11 +75,18 @@ const App = () => {
 
         {/* --------------------WORK----------------------------- */}
 
-        <Navbar/>
+        {/* <Navbar/>
         <Banner/>
         <CardsSection/>
         <Description/>
-        <Footer/>
+        <Footer/> */}
+
+
+
+
+        {/*---------------- Axios------ ----------- */}
+        {/* <AxiosGet/> */}
+        <AxiosPost/>
 
 
         
