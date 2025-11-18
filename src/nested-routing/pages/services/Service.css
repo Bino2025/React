@@ -1,0 +1,53 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 1.875rem; 
+  font-weight: 600;
+  margin-bottom: 1rem; 
+}
+
+.services-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.services-links {
+  display: flex;
+  gap: 1rem; 
+  margin-bottom: 1.5rem; 
+}
+
+.service-link {
+  padding: 0.5rem 0.75rem; 
+  color: white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Individual button colors */
+.service-link.web {
+  background-color: #2563eb; 
+}
+.service-link.web:hover {
+  background-color: #1d4ed8; 
+}
+
+.service-link.app {
+  background-color: #16a34a; /* green-600 */
+}
+.service-link.app:hover {
+  background-color: #15803d;
+}
+
+.service-link.design {
+  background-color: #9333ea; /* purple-600 */
+}
+.service-link.design:hover {
+  background-color: #7e22ce; 
+}

@@ -4,7 +4,11 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import AxiosPost from "./Axios/AxiosPost"
+import Player from "./functional-components/Hooks/Player"
+
+// import AxiosPut from "./Axios/AxiosPut"
+
+// import AxiosPost from "./Axios/AxiosPost"
 
 // import Banner from "../work/New/banner"
 // import CardsSection from "../work/New/CardsSection"
@@ -58,6 +62,8 @@ const App = () => {
         <UserList/>
       </userApiProvider> */}
 
+      <Player/>
+
 
       {/* --------------------React Keys------------------ */}
 
@@ -86,7 +92,8 @@ const App = () => {
 
         {/*---------------- Axios------ ----------- */}
         {/* <AxiosGet/> */}
-        <AxiosPost/>
+        {/* <AxiosPost/> */}
+        {/* <AxiosPut/> */}
 
 
         
