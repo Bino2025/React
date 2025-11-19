@@ -4,7 +4,9 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import Player from "./functional-components/Hooks/Player"
+import ProductPage from "./Design/dynamic-routing-RW-eg/ProductPage"
+
+// import Player from "./functional-components/Hooks/Player"
 
 // import AxiosPut from "./Axios/AxiosPut"
 
@@ -62,7 +64,7 @@ const App = () => {
         <UserList/>
       </userApiProvider> */}
 
-      <Player/>
+      {/* <Player/> */}
 
 
       {/* --------------------React Keys------------------ */}
@@ -94,6 +96,13 @@ const App = () => {
         {/* <AxiosGet/> */}
         {/* <AxiosPost/> */}
         {/* <AxiosPut/> */}
+
+
+
+
+
+        {/* ---------DYNAMIC ROUTING RW----------- */}
+        <ProductPage/>
 
 
         
