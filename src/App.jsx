@@ -4,7 +4,21 @@
 // import Conditional from './embedding-Expression/conditional'
 // import RenderingLists from './embedding-Expression/RenderingLists'
 
-import ProductPage from "./Design/dynamic-routing-RW-eg/ProductPage"
+import YupForm from "./Form/Yup_react_hook_form/YupForm"
+
+// import BasicHookForm from "./Form/react-hook-form/BasicHookForm"
+
+// import Usememo from "./functional-components/Hooks/Usememo"
+
+// import Parent from "./functional-components/Hooks/UseCallBack-hook/Parent"
+
+// import Counter2 from "./functional-components/Hooks/UseReducer-hook/Counter2"
+// import Counter from "./functional-components/Hooks/UseReducer-hook/Counter2"
+
+// import { Route, Routes } from "react-router-dom"
+// import ProductPage from "./Design/dynamic-routing-RW-eg/ProductPage"
+// import ProductDetails from "./Design/dynamic-routing-RW-eg/ProductDetails"
+// import UseLayoutEffect from "./functional-components/Hooks/UseEffect-Hook/UseLayoutEffect"
 
 // import Player from "./functional-components/Hooks/Player"
 
@@ -65,6 +79,10 @@ const App = () => {
       </userApiProvider> */}
 
       {/* <Player/> */}
+      {/* <UseLayoutEffect/> */}
+      {/* <Counter2/> */}
+      {/* <Parent/> */}
+     {/* /* <Usememo/>*/ }
 
 
       {/* --------------------React Keys------------------ */}
@@ -102,10 +120,23 @@ const App = () => {
 
 
         {/* ---------DYNAMIC ROUTING RW----------- */}
-        <ProductPage/>
+        {/* <ProductPage/> */}
+        {/* <Routes>
+          <Route path="/" element = {<ProductPage/>}/>
+          <Route path="/product/:id" element={<ProductDetails/>}/>
+        </Routes> */}
+
+
+
+
+        {/* -------------- REACT HOOK FORM ----------------- */}
+        {/* <BasicHookForm/> */}
 
 
         
+          {/* -----------YUP WITH REACT HOOK FORM------------ */}
+
+          <YupForm/>
 
     </>
   )

@@ -1,15 +1,22 @@
+import shoe from '../Images/shoe.jpg'
 import shoe1 from '../Images/shoe1.jpg'
 import shoe2 from '../Images/shoe2.jpg'
+import shoe3 from '../Images/shoe3.jpg'
 
-import heel from '../Images/heel2.jpg'
-import heel2 from '../Images/heel3.jpg'
+
+import heel from '../Images/heel.jpg'
+import heel2 from '../Images/heel2.jpg'
+import heel3 from '../Images/heel3.jpg'
+import heel1 from '../Images/heel1.jpg'
+
+
 
 
 
 export const products = [
     {
-        id: 1,
-        Image:shoe1,
+        id: "DCIL0019AB1",
+        Image:shoe,
         title: "Mens's Shoe DN 23x, New Product",
         category: "LIFESTYLE",
         Price: 4690,
@@ -17,11 +24,11 @@ export const products = [
         rating: 4,
         offer: 25,
         description: "This is a high quality men's shoe perfect for Everyday Use.",
-        gallery:[shoe1,shoe2]
+        gallery:[shoe1,shoe2,shoe3]
     },
     {
-        id: 2,
-        iamge:heel,
+        id: "DCIL0019AB2",
+        Image:heel,
         title: "Womens's Heel DN 23x, New Product",
         category: "LIFESTYLE",
         Price: 2999,
@@ -29,6 +36,6 @@ export const products = [
         rating: 5,
         offer: 20,
         description: "This is a high quality women's heel perfect for Party Occasions.",
-        gallery: [heel,heel2]
+        gallery: [heel,heel2,heel3,heel1]
     }
 ]
